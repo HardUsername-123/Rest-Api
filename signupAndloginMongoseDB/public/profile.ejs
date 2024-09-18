@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Image Setup</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      text-align: center;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .profile-image-container {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    #profileImage {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ddd;
+    }
+
+    .upload-button {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 5px 10px;
+      background-color: #007bff;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="file"] {
+      display: none;
+    }
+
+    input[type="text"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .btn-upload {
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn-upload:hover {
+      background-color: #218838;
+    }
+
+    .profile-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .profile-item {
+      margin: 10px;
+      text-align: center;
+    }
+
+    .profile-item img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ddd;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Set Up Your Profile Image</h1>
+      <form
+        id="profileForm"
+        action="/api/uploads"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div class="profile-image-container">
+          <img id="profileImage" src="/assist/logo.png" alt="Profile Image" />
+          <label for="imageUpload" class="upload-button">Choose Image</label>
+          <input type="file" id="imageUpload" name="img" accept="image/*" />
+        </div>
+
+        <button type="submit" class="btn-upload">Upload</button>
+      </form>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

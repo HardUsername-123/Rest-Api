@@ -1,0 +1,23 @@
+{
+  "name": "mymongoose",
+  "version": "1.0.0",
+  "main": "mongoPracts.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "anthony",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.4.3",
+    "mongosh": "^2.2.9",
+    "nodemon": "^3.1.3"
+  }
+}

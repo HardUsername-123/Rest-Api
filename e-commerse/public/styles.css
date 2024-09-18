@@ -1,0 +1,232 @@
+/* Custom styles for the product cards */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  transition: transform 0.2s;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+/* Custom styles for the buttons */
+.btn-info,
+.btn-warning,
+.btn-danger {
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-info:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Styling for the form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Add some margin to the top of the page */
+.container {
+  margin-top: 40px;
+}
+
+/* Alert styling */
+.alert {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* add styles */
+
+/* Custom styles for the product form */
+.container {
+  margin-top: 40px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #6c757d;
+  transform: scale(1.05);
+}
+
+.alert {
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* products style */
+
+/* Custom styles for the product view */
+.product-view {
+  margin-top: 40px;
+}
+
+.product-view h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.product-view .product-details {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-view .product-details h2 {
+  color: #007bff;
+}
+
+.product-view .product-details p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.product-view .img-fluid {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.btn-secondary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #6c757d;
+  transform: scale(1.05);
+}
+
+/* register styles */
+/* Custom styles for the register form */
+.register-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.register-form h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.register-form .form-control {
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.register-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.register-form .btn-primary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.register-form .btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.register-form .btn-secondary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.register-form .btn-secondary:hover {
+  background-color: #6c757d;
+  transform: scale(1.05);
+}
+
+.register-form .shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-form .rounded {
+  border-radius: 10px;
+}
+/* log in styles */
+
+/* Custom styles for the login form */
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.login-form h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.login-form .form-control {
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.login-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.login-form .btn-primary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.login-form .btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.login-form .btn-secondary {
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.login-form .btn-secondary:hover {
+  background-color: #6c757d;
+  transform: scale(1.05);
+}
+
+.login-form .shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .rounded {
+  border-radius: 10px;
+}
